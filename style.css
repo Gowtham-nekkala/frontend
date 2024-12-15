@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    color: white;
 }
 
 .one {
     background-color: #1f2937;
     flex-direction: column;
     width: auto;
-    height: 400px;
+    height: 600px;
     gap: 80px;
     padding: 10px;
 }
@@ -39,6 +39,8 @@
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    width: 200px;
+    text-align: left;
 }
 
 .sign {
@@ -53,13 +55,15 @@
 
 .img {
     border-radius: 10px;
-    height: 220px;
-    width: 150px;
+    height: 280px;
+    width: 280px;
+    margin-right: 80px;
 }
 
 .texim {
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
+    gap: 600px;
 }
 
 .text {
@@ -68,7 +72,7 @@
 
 .two{
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: white;
     justify-items: center;
     gap: 40px;
 }
@@ -76,7 +80,8 @@
 .ran{
     font-size: 28px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
+    color: black;
 }
 
 .boxes{
@@ -86,16 +91,77 @@
 
 .box{
     background-color: #e5e7eb;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     border: 3px solid #3882f6;
-    margin-left: 149px;
+    margin-left: 135px;
 }
 
 .text{
+    text-align: center;
     color: black;
-    width: 100px;
+    width: 200px;
     height: 100px;
-    margin-left: 149px;
+    margin-left: 135px;
+    margin-bottom: 30px;
+}
+pre{
+    color: #e5e7eb;
+}
+
+.tex{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.three{
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.act{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    background-color: #3882f6;
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 10px;
+    gap: 210px;
+}
+
+.four{
+    background-color: white;
+    align-items: center;
+}
+.call{
+    padding: 20px;
+    margin-left: 20px;
+}
+.h{
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.sign1{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+    padding: 10px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
